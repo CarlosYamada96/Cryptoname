@@ -1,0 +1,207 @@
+
+
+#title{
+  text-align: center;
+}
+
+#title h1{
+    letter-spacing: 8px;
+}
+
+#title h4{
+    color: #607D8B;
+}
+
+hr.style-eight { 
+    overflow: visible;
+    padding: 0; 
+    border: none; 
+    border-top: medium double #212121; 
+    color: #212121;
+    text-align: center; 
+} 
+                    
+hr.style-eight:after { 
+    content: "§"; 
+    display: inline-block; 
+    position: relative; 
+    top: -0.7em; 
+    font-size: 1.5em; 
+    padding: 0 0.25em; 
+    background: white; 
+}
+
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    color: goldenrod;
+    font-size: 65px;
+}
+
+h3{
+    font-family: 'Nunito', sans-serif;
+    color: #607D8B;
+    text-align: center;
+}
+
+h4{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Tajawal', sans-serif;
+    text-align: justify;
+    color: #212121;
+}
+
+table{
+    font-family: 'Bitter', serif;
+}
+
+td{
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 18px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 4%;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+button {
+  border-radius: 2px;
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 50%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 25%;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* DIVS STYLE*/
+
+#textcontainer{
+    width:  100%;
+    height: 520px;
+}
+
+#uno{
+    float: left;
+    width:  32%;
+    height: 520px;
+    margin-right: 20px;
+    padding: 5%;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+    border-style: double;
+    border-width: 4px;
+}
+
+#dos{
+    float: left;
+    width:  33%;
+    height: 250px;
+    margin-bottom: 20px;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+     border-style: double;
+     border-width: 4px;
+}
+
+#tres{
+    float: right;
+    width:  32%;
+    height: 520px;
+    padding: 5%;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+     border-style: double;
+     border-width: 4px;
+}
+
+#cuatro{
+    float: left;
+    width:  33%;
+    height: 250px;
+    padding-left: 3%;
+    padding-right: 3%;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box;
+     border-style: double; 
+     border-width: 4px;
+}
+
+.box:hover
+{
+        box-shadow: inset 5px 5px 18px #888888;
+}
+
+#img{
+  margin-left: 9%;
+}
+
+#info{
+    width: 100%;
+    height: 200px;
+    float: left;
+    margin-top: -10px;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+#info p{
+    font-family: 'Raleway', sans-serif;
+    color: #607D8B;
+    text-align: center;
+}

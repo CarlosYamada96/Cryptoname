@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
+    <script src="Scripts/script.js"></script>
+    <script src="Scripts/buffer-loader.js"></script>
+    <script src="p5/p5.js"></script>
+    <script src="p5/addons/p5.dom.js"></script>
+    <script src="p5/addons/p5.sound.js"></script>
+    <title>Cryptoname</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="title">
+            <h1>CRYPTONAME</h1>
+            <h4>- A web app based on the bach cryptogram -</h4>
+            <hr class="style-eight"> </hr>
+        </div>
+
+        <div id="textcontainer">
+            <div id="uno" class="box">
+                <h3>¿What is a cryptogram?</h3>
+                <p>A musical cryptogram is a cryptogrammatic sequence of musical notes, a sequence which can be taken to refer
+                    to an extra-musical text by some 'logical' relationship, usually between note names and letters. </p>
+                <p>In other words, a musical cryptograme is a little musical phrase or motif that contains the name of the author
+                    in which every letter is related with an specific note. This motif was used by the authors to give their
+                    works a unique signature.</p>
+                <img src="Img/cm.png" width="240px" id="img">
+            </div>
+
+            <div id="dos" class="box">
+                <h3>¿What is CRYTPONAME?</h3>
+                <p>Cryptoname is a musical cryptogram that allows the user to write his name in an input box, and based on the
+                    cryptogram used by the German composer Johann Sebastian Bach, the user will be able to hear how does
+                    Bach would have played his name. All depending on the letters that make up the user's name and size.
+                </p>
+            </div>
+
+            <div id="tres" class="box">
+                <h3>¿How does it work?</h3>
+                <p>The way it works depends on the method that was used to create the cryptogram. For example, the "French"
+                    method use diatonic notes from A to G and use an alphabet that starts in the letter "H" and finishes
+                    in letter "Z". Therefore, this means that "H" is encrypted by note "A" while "N" is encrypted by note
+                    "G" and so on.
+                </p>
+                <table align="center">
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                        <td>C</td>
+                        <td>D</td>
+                        <td>E</td>
+                        <td>F</td>
+                        <td>G</td>
+                    </tr>
+                    <tr>
+                        <td>H</td>
+                        <td>I</td>
+                        <td>J</td>
+                        <td>K</td>
+                        <td>L</td>
+                        <td>M</td>
+                        <td>N</td>
+                    </tr>
+                    <tr>
+                        <td>O</td>
+                        <td>P</td>
+                        <td>Q</td>
+                        <td>R</td>
+                        <td>S</td>
+                        <td>T</td>
+                        <td>V</td>
+                    </tr>
+                    <tr>
+                        <td>W</td>
+                        <td>X</td>
+                        <td>Y</td>
+                        <td>Z</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="cuatro" class="box">
+                <h3>¿How to use it?</h3>
+                <p>It is very simple! You just need to type your name and click on the button below to hear your name! </p>
+                <input type="text" id="input" oninput="this.value = this.value.toUpperCase()" placeholder="Your Name"></input>
+                <button id="submit" style="vertical-align:middle" align="center">
+                    <span> Play </span>
+                </button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr class="style-eight"> </hr>
+        <div id="info">
+            <p>Tecnológico de Monterrey Campus Ciudad de México</p>
+            <p>Sistemas de Audio Digital para Web y Dispositivos Móviles</p>
+            <p>Proyecto Final</p>
+            <p>Viernes 3 de Mayo del 2018</p>
+        </div>
+    </div>
+    <div id="c1">
+    </div>
+</body>
+
+</html>
